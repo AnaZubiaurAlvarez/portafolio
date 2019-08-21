@@ -1,0 +1,75 @@
+/*
+GLOBALES
+*/
+* {
+    /*con este código reemplazamos al archivo CSS reset*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: arial,Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    color:white;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color:black;
+}
+a{
+    text-decoration:none;
+}
+/*
+header
+*/
+header {
+    background-color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:16px;
+}
+
+header h1{
+    margin-left:20px;
+    padding-top:20px; 
+}
+
+header ul {
+    display: flex;
+    line-height:normal;
+}
+
+header ul li {
+    padding:20px;
+}
+
+header li a {
+    color: white; 
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    line-height: normal;
+}
+.sobremi{
+display: flex;
+justify-content: baseline;
+align-content: center;
+}
+
+
+
+
+
+
+
+
